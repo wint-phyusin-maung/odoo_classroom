@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "configurations": [
+      {
+        "name": "Python: odoo 16",
+        "type": "python",
+        "request": "launch",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "python": "/Users/admin/Desktop/odoo-classroom/venv/bin/python3.9",
+        "program": "/Users/admin/Desktop/odoo-classroom/odoo/odoo-bin",
+        "args": ["--config=/Users/admin/Desktop/odoo-classroom/conf/odoo.conf"]
+      }
+    ]
+  }
+  

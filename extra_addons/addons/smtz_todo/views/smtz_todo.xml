@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="smtz_todo_action" model="ir.actions.act_window" >
+        <field name="name">Todo</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">smtz.todo</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="smtz_todo_root" name="Todo" sequence="0" />
+    <menuitem id="smtz_todo_categ" name="Todo" parent="smtz_todo_root" action="smtz_todo_action" sequence="0"/>
+</odoo>
