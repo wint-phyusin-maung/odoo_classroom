@@ -10,8 +10,8 @@ extra_addons -> addons
 ./odoo-bin --addons-path="addons/,../enterprise/,../tutorials" -d rd-demo
 
 
-./odoo/odoo-bin --addons-path="/Users/admin/Desktop/odoo-classroom/odoo/addons,
-              /Users/admin/Desktop/odoo-classroom/extra_addons/addons,
-              /Users/admin/Desktop/odoo-classroom/odoo_tutorials" -d rd-demo
+./odoo/odoo-bin --addons-path="/Users/khantnyar/projects/odoo_classroom/odoo/addons,
+              /Users/khantnyar/projects/odoo_classroom/extra_addons/addons,
+              /Users/khantnyar/projects/odoo_classroom/odoo_tutorials" -d rd-demo
 
 oop (object-relational mapping)
