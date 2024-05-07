@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <record id="action_estate_ownership" model="ir.actions.act_window">
+        <field name="name">Ownership</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">estate.ownership</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+     <menuitem id="menu_estate_ownership"
+          name="Ownership"
+          parent="menu_estate_advertisements"
+          sequence="12"/>
+</odoo>

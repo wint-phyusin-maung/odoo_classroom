@@ -3,15 +3,14 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirement.txt
 
-
 extra_addons -> addons
 
 
 ./odoo-bin --addons-path="addons/,../enterprise/,../tutorials" -d rd-demo
 
 
-./odoo/odoo-bin --addons-path="/Users/khantnyar/projects/odoo_classroom/odoo/addons,
+oop (object-relational mapping)
+
+ ./odoo-bin --addons-path="/Users/khantnyar/projects/odoo_classroom/odoo/addons,
               /Users/khantnyar/projects/odoo_classroom/extra_addons/addons,
               /Users/khantnyar/projects/odoo_classroom/odoo_tutorials" -d rd-demo
-
-oop (object-relational mapping)

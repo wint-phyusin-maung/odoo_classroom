@@ -1,1 +1,2 @@
-External identifier: An external identifier is a unique reference to a record that is used outside of the database. It's a means of identifying a particular record without needing to know its specific identifier within the database.
+External identifier:   unique identifier that's meaningful outside of the database context.
+Menu > Action > View
